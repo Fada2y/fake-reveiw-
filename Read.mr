@@ -1,0 +1,47 @@
+# 🕵️‍♂️ Fake Review Detection System using Machine Learning
+
+This project is a web-based application that detects whether a review is **genuine** or **fake** using Natural Language Processing (NLP) and Machine Learning. Built with Python and Streamlit, it allows users to enter a review and instantly receive a prediction.
+
+---
+
+## 📌 Features
+
+- 🔍 Text classification using a trained machine learning model
+- 🧠 TF-IDF vectorization for feature extraction
+- ⚡ Real-time prediction via a simple web interface
+- 🌐 Deployable online using Streamlit Cloud
+- 🧼 Includes data cleaning, preprocessing, and model training
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **scikit-learn**
+- **pandas / numpy**
+- **NLTK**
+- **Streamlit**
+- **Pickle** (for saving the model)
+
+---
+
+## 📂 Project Structure
+
+app.py # Streamlit web app
+cleaned_data.csv # Preprocessed dataset 
+fake_review_model.pkl # Trained ML model
+tfidf_vectorizer.pkl # TF-IDF vectorizer
+README.md # Project documentation
+
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repo** or download the project files
+2. Make sure you have Python 3.10+ installed
+3. Install dependencies:
+
+```bash
+pip install streamlit scikit-learn pandas nltk
+streamlit run app.py #run the app
